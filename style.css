@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 2px solid #dee2e6;
+    padding: 12px;
+    margin: 180px 100px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    display: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+#colorPicker{
+    padding: 4px;
+    border-radius: 4px;
+    background: none;
+}
+
+#preview{
+    padding: 25px;
+    background: #ddd;
+    margin-left: auto;
+    border-radius: 4px;
+}
